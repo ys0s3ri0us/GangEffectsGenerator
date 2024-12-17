@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gang Effects Generator</title>
+    <!-- Fonts for Cool Effects -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&family=Roboto+Mono:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- CCapture.js for export (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ccapture.js/1.1.0/CCapture.all.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>🔥 Gang Effects Generator 🔥</h1>
+        <p>Unleash epic effects for your NFT collection!</p>
+    </div>
+
+    <div id="controls">
+        <input type="file" id="imageUpload" accept="image/*" class="btn">
+        <button id="fireEffect" class="btn">🔥 Add Fire</button>
+        <button id="glowEffect" class="btn">✨ Add Glow</button>
+        <button id="glitchEffect" class="btn">⚡ Add Glitch</button>
+        <button id="exportGif" class="btn">📽️ Export as GIF</button>
+    </div>
+
+    <div id="canvasContainer"></div>
+
+    <footer>
+        <p>⚡ Created for Based Ape Gang ⚡</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

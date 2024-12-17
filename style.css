@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: linear-gradient(135deg, #1e1e2e, #111);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Section */
+#header {
+    padding: 20px;
+    background: radial-gradient(circle, #ff9800, #ff5722);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0;
+}
+
+#header p {
+    font-family: 'Press Start 2P', cursive;
+    color: #fce4ec;
+    margin-top: 5px;
+}
+
+/* Controls Section */
+#controls {
+    margin: 20px 0;
+}
+
+.btn {
+    background: linear-gradient(90deg, #ff9800, #ff5722);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ff5722, #d32f2f);
+    transform: scale(1.1);
+}
+
+/* Canvas Section */
+#canvasContainer {
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    background: #000;
+}
+
+/* Footer */
+footer {
+    background: #1e1e2e;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ff9800;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+}
